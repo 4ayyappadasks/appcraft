@@ -3,6 +3,7 @@ import 'package:appcraftmt/view/login/loginpage.dart';
 import 'package:appcraftmt/view/profile/profilepage.dart';
 import 'package:appcraftmt/view/provider/provider_details_entrypage.dart';
 import 'package:appcraftmt/view/provider/provider_homepage.dart';
+import 'package:appcraftmt/view/signup/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
         GetPage(name: '/providerHome', page: () => ProviderHomePage()),
         GetPage(name: '/profile', page: () => CustomerProfilePage()),
         GetPage(name: '/providerEntry', page: () => ProviderDetailEntryPage()),
+        GetPage(name: '/signup', page: () => Signup()),
       ],
     );
   }

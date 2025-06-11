@@ -4,6 +4,7 @@ import 'package:get_storage/get_storage.dart';
 class AuthController extends GetxController {
   final userlist = ["customer", "provider"];
   final RxString email = ''.obs;
+  final RxString pass = ''.obs;
   final RxString role = "".obs;
 
 
@@ -18,5 +19,12 @@ class AuthController extends GetxController {
     } else {
       Get.offAllNamed('/providerEntry');
     }
+  }
+
+  void signup(String name, String passwd)
+  {
+    email.value = name;
+    pass.value = passwd;
+    Get.offAllNamed('/login');
   }
 }
