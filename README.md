@@ -4,5 +4,5 @@ A new Flutter project.
 
 ## Getting Started
 
-![Create Profile](https://raw.githubusercontent.com/4ayyappadasks/appcraft/c3428f9be5c11483453839d93a0c8819094ea428/gitimg/create%20profile.jpg)
+![Create Profile](https://github.com/4ayyappadasks/appcraft/blob/aed6af480ce5b74bf47817763df96fac1bbaef62/gitimg/gitmainimg.png)
 
